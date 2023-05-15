@@ -1,9 +1,30 @@
-html,
 body {
     margin: 0;
     padding: 0;
 }
 
-canvas {
-    display: block;
+#game-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#game-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#score-display {
+    font-size: 32pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#game-canvas {
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px #BBB;
 }
